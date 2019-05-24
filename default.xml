@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="macieklewkowicz"
+           fetch="git://github.com/macieklewkowicz"
+           review="" />
+  <default revision="master"
+           remote="macieklewkowicz"
+           sync-j="4" />
+
+   <project path="zakupki" name="zakupki" groups="frontend" />
+   <project path="centrala" name="centrala" groups="api" />
+</manifest>
